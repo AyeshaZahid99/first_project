@@ -108,3 +108,9 @@ text-transform: capitalize;
 .just_size li a{
     font-size: 15px !important;
 }
+/* courosel custom css */
+.carousel-item active{
+width:100% !important;
+height:50%!important;
+
+}
