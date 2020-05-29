@@ -1,0 +1,35 @@
+body, html {
+    height:auto;
+    width:100%;
+}
+body{
+    direction:1tr
+}
+.sizenb{
+    font-size: 10px !important;
+    float: right !important;
+}
+.logosize a{
+    width:  !important;
+    height:  !important;
+}
+.dropdown-menu{
+    font-size: 10px !important;
+}
+a:hover{
+    background-color:;
+}
+.navbar navbar-expand-lg {
+    background-color: black !important;
+}
+
+.footer{
+    background-color: #303036;
+    height:200px;
+}
+#0ne{
+    color: purple;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
