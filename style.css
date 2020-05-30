@@ -27,7 +27,7 @@ body{
     justify-content: space-between;
 }
 .img-fluid {
-    max-width: 253px;
+    max-width: 243px;
     height: 214px;
 }
 .btn-secondary {
@@ -157,21 +157,31 @@ text-transform: capitalize;
     padding-right: 10px;
 }
 .segment-three a{
-    background: #494848;
-    width:40px;
-    height:40px;
-    display:inline-block;
-    border-radius: 50%;
+    background: #9e7998;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 30% 60%;
 }
 .segment-three a i{
     font-size: 20px;
-    color:#fff;
-    padding: 10px 12px;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
 }
 .footer-bottom-text{
     text-align: center;
     background:#000;
     line-height: 40px;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.copyright-ayesha{
+    color: #9e7998;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .just_size li a{
     font-size: 15px !important;
@@ -196,8 +206,26 @@ height:50%!important;
 
 }
 .mov-text{
-    background-color: silver;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
     font-size: large;
+    color: #9e7998;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+.carousel-inner {
+    height: 550px;
+}
+.style-h1{
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    background: #9e7998;
+    padding: 20px;
+    width: 90%;
+    margin: 1% 5%;
+    border-radius: 0px 50px;
+}
+.p-20{
+padding: 20px;
 }
