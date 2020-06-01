@@ -1,10 +1,9 @@
-name: DD Slimming Club & Salon site deployment
+name: Deploying Site
 on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Deployment using surge
     steps:
       - uses: actions/checkout@v2
       - name: Install node.js
