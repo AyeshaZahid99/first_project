@@ -7,6 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Install Bootstrap v4.5.0
+        run: npm install bootstrap
+      - name: Install jQuery
+        run: npm install jquery
+      - name: Install Popper.js
+        run: npm install popper.js --save
       - name: Install node.js
         uses: actions/setup-node@v2-beta
         with:
