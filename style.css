@@ -48,7 +48,7 @@ body{
   box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
 }
 #section1 { 
-    background: url(https://image.freepik.com/free-photo/copy-space-woman-doing-exercises_23-2148435355.jpg);
+    background: url(images/parallax-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
     background-attachment: fixed;
