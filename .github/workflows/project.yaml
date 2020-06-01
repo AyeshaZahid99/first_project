@@ -12,7 +12,7 @@ jobs:
       - name: Install jQuery
         run: npm install jquery
       - name: Install Popper.js
-        run: npm install popper.js --save
+        run: npm install popper.js 
       - name: [I'm an inline-style link](https://fonts.googleapis.com/css?family=Font+Name)
       - name: Install node.js
         uses: actions/setup-node@v2-beta
