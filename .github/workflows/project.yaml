@@ -1,10 +1,34 @@
-name: DeployingSite CI
+# name: DeployingSite CI
 
-on: 
+# on: 
+#   push:
+#     branches: [master]
+#   pull_request: 
+#     branches: [master]
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     name: Deployment using surge
+#     steps:
+#       - uses: actions/checkout@v2
+#       - name: Install node.js
+#         uses: actions/setup-node@v2-beta
+#         with:
+#           node-version: 12
+#       - name: Install Surge
+#         run: nmp install -g surge
+#       - name: Run Surge
+#         run: surge ./ DD_Slimming_center_&_Salon.surge.sh --token ${{secrets.PROJECT_TOKEN}}
+
+
+name: BootCamp CI
+
+on:
   push:
-    branches: [master]
-  pull_request: 
-    branches: [master]
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
@@ -15,8 +39,8 @@ jobs:
       - name: Install node.js
         uses: actions/setup-node@v2-beta
         with:
-          node-version: 12
+        node-version: 12
       - name: Install Surge
-        run: nmp install -g surge
+        run: npm install -g surge
       - name: Run Surge
-        run: surge ./ DD_Slimming_center_&_Salon.surge.sh --token ${{secrets.PROJECT_TOKEN}}
+        run: surge ./project_1_ayeshazahid.surge.sh --token ${{secrets.PROJECT_1_TOKEN}}
