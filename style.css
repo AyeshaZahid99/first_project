@@ -202,8 +202,10 @@ height:50%!important;
 .int img{
    width:250px;
    height:200px;
-   background-color: pink;
-
+}
+.int p{
+    font-weight: bold;
+    font-size: larger;
 }
 .mov-text{
     font-size: large;

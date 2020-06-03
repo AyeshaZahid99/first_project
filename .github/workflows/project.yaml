@@ -1,24 +1,22 @@
 
 name: Deploying Site
-on: [push]
+on: 
+  push:
+    branches: [master]
+  pull_request: 
+    branches: [master]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    name: Deployment using surge
     steps:
       - uses: actions/checkout@v2
-      - name: Install Bootstrap v4.5.0
-        run: npm install bootstrap
-      - name: Install jQuery
-        run: npm install jquery
-      - name: Install Popper.js
-        run: npm install popper.js 
-      - name: [I'm an inline-style link](https://fonts.googleapis.com/css?family=Font+Name)
       - name: Install node.js
         uses: actions/setup-node@v2-beta
         with:
-          node-version: 12
+        node-version: 12
       - name: Install Surge
         run: nmp install -g surge
-      - name: Run surge
+      - name: Run Surge
         run: surge ./ DD_Slimming_center_&_Salon.surge.sh --token ${{secrets.PROJECT_TOKEN}}
