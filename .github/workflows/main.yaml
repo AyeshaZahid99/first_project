@@ -22,7 +22,7 @@
 #         run: surge ./ DD_Slimming_center_&_Salon.surge.sh --token ${{secrets.PROJECT_TOKEN}}
 
 
-name: BootCamp CI
+name: Salon_&_FitnessClub
 
 on:
   push:
