@@ -231,3 +231,9 @@ height:50%!important;
 .p-20{
 padding: 20px;
 }
+#heading{
+    color:purple;
+    font-weight: bolder;
+    font-style: italic;
+    font-family:;
+}
