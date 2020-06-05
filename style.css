@@ -237,3 +237,35 @@ padding: 20px;
     font-style: italic;
     font-family:;
 }
+/* pose-text_01{
+
+} */
+#section1_01 { 
+    background: url(images/girl-2366438_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative; 
+   
+}
+.pose-text_01
+{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    padding: 40px;
+    margin: auto 0;
+    /* text-align: center; */
+    margin-top: 25vh;
+    color: #fff;
+    font-weight: 900;
+}
+#hash{
+    background-color: #9e7998;
+    border-radius: 200px;
+    color:white;
+    text-align:center ;
+    border-width: 15px;
+}
