@@ -269,3 +269,17 @@ padding: 20px;
     text-align:center ;
     border-width: 15px;
 }
+#hash_01{
+    background-color: yellowgreen;
+    border-radius: 200px;
+    color:white;
+    text-align:center ;
+    border-width: 15px;
+}
+.services{
+    display:flex;
+    padding:100px;
+   margin-bottom: 0px;
+ justify-content: space-between;
+
+}
