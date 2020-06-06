@@ -283,3 +283,33 @@ padding: 20px;
  justify-content: space-between;
 
 }
+.fitness_cards{
+   
+    display:inline-block;
+    padding:100px;
+   margin-bottom: 0px;
+ justify-content: space-between;
+}
+.fitness_cards_01{
+    display:flex;
+    padding:10px;
+   margin-bottom: 0px;
+   margin-top: 0mm;
+ justify-content: space-around;
+}
+.one_o_one{
+justify-content: center !important;
+
+}
+#section1_02 { 
+    background: url(images/parallax-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative; 
+   
+}
+    
